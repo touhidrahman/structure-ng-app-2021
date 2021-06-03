@@ -1,0 +1,10 @@
+<nz-collapse nzAccordion>
+    <nz-collapse-panel
+        *ngFor="let panel of panels; let i = index"
+        [nzHeader]="panel.title"
+        [nzActive]="activePanel === i"
+        (click)="selectActivePanel(i)"
+    >
+        <p [innerHtml]="panel.description"></p>
+    </nz-collapse-panel>
+</nz-collapse>

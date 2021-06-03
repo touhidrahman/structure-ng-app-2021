@@ -1,0 +1,36 @@
+{
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "typescript.format.semicolons": "remove",
+    "javascript.format.semicolons": "remove",
+    "prettier.semi": false,
+    "importSorter.importStringConfiguration.hasSemicolon": false,
+    "eslint.options": {
+        "extensions": [".ts", ".html"]
+    },
+    "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact", "html"],
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "[javascript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true
+        }
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true
+        }
+    },
+    "[json]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true
+        },
+        "editor.formatOnSave": false
+    },
+    "[html]": {
+        "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+        "editor.formatOnSave": true
+    }
+}

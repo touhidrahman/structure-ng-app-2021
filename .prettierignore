@@ -1,0 +1,7 @@
+package.json
+package-lock.json
+tslint.json
+yarn.lock
+dist
+src/assets/**
+*.yml

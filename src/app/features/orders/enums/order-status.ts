@@ -1,0 +1,15 @@
+export enum OrderStatus {
+    CREATED = 'created',
+    ACCEPTED = 'accepted',
+    DECLINED = 'declined',
+    CONSIGNED = 'consigned',
+    DISPATCHED = 'dispatched',
+    SHIPPED = 'shipped',
+    DELIVERED = 'delivered',
+    RETURN_INITIATED = 'return initiated',
+    RETURN_RECEIVED = 'return received',
+    REFUNDED = 'refunded',
+    VOUCHER_ISSUED = 'voucher issued',
+    COMPLETED = 'completed',
+    CANCELLED = 'cancelled',
+}
